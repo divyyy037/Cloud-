@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS EC2 Practical</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.25);
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 650px;
+            width: 100%;
+            padding: 45px 30px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        h1 {
+            color: #ffb347;
+            margin-bottom: 20px;
+            font-size: 2.3rem;
+        }
+
+        h2 {
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #d9e2ec;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .status {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            border-radius: 25px;
+            background: #174d35;
+            color: #a7f3c5;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 18px;
+            color: #cbd5e1;
+            background: rgba(0, 0, 0, 0.25);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .container {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>AWS Cloud Computing Practical</h2>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Welcome to AWS EC2</h1>
+            <h2>Divyansh Mehta</h2>
+            <p>Data Science Batch</p>
+            <p>This webpage is hosted on an Ubuntu EC2 instance using the Nginx web server.</p>
+            <div class="status">● Server Deployment Successful</div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Divyansh Mehta | Hosted on AWS
+    </footer>
+</body>
+</html>
